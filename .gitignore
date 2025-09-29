@@ -1,0 +1,38 @@
+# This is a sample .gitignore file for C/C++ projects
+# This ignores common build artifacts and temporary files
+# So they are not tracked by git and uploaded to the repository
+#
+# Note to students: You dont need to fully understand this! 
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
